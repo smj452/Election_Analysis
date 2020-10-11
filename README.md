@@ -1,26 +1,17 @@
-# Election Audit
+# Election Analysis
 ## Overview of Project
-
-Tom is a Colorado Board of Elections employee who is assigned by his manger to perform an election audit of the tabulated results for U.S. Congressional precinct in Colorado. Three primary voting methods are taken into account: Mail-in ballots, punch cards, and direct recording electronic or DRE counting machines. Altogether the votes cast by these three methods will determine the final election results. As a part of the audit to find the election winner, the following metrics were calculated: 
-
-1.Total Number of Votes cast for the election
-
-2.Total Number of Votes for each Candidate
-
-3.The percentage of Votes for each Candidate
-
-4.The winner of the election based on the popular vote
-
-5.The voter turnout for each county
-
-6.The percentage of votes for each county out of the total count
-
-7.The county with the highest turnout
+Tom is a Colorado Board of Elections employee who is assigned by his manger to perform an election audit of the tabulated results for U.S. Congressional precinct in Colorado. Three primary voting methods are taken into account: Mail-in ballots, punch cards, and direct recording electronic or DRE counting machines. Altogether the votes cast by these three methods will determine the final election results. The following are tasks given to complete the election audit of the recent local congressional election.
+1.	Total number of votes cast
+2.	A complete list of candidates who received votes
+3.	Total number of votes each candidate received
+4.	Percentage of votes each candidate won
+5.	The winner of the election based on popular vote
 
 ### Purpose
 
 The purpose of the project was to assist Tom in the audit of tabulated results for a US congressional precinct in Colorado. Using the data source of a CSV file containing the tabulated totals for the elections from various voting methods, the objective was to automate the process by writing a python script to successfully audit the election. Also, if this audit is done successfully with Python, the code will be used for senatorial districts and local elections.
-## Technologies
+
+## Resources
 #### Project is created with:
 
 1. ```Python 3.7.6```
@@ -28,47 +19,59 @@ The purpose of the project was to assist Tom in the audit of tabulated results f
 
 #### Data Source: ```election_results.csv```
 
+## Summary
+
+The analysis of the election show that:
+•	There were "369,711" votes cast in the election.
+•	The candidates were:
+o	Charles Casper Stockham
+o	Diana DeGette
+o	Raymon Anthony Doane
+•	The candidate results were:
+o	Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
+o	Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
+o	Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
+•	The winner of the election was:
+o	Candidate Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
+
+## Challenge Overview
+
+### Election-Audit Overview
+The election commission has requested some additional data to complete the election audit:
+1.	The voter turnout for each county
+2.	The percentage of votes from each county out of the total count
+3.	The county with the highest turnout
 
 ## Election Audit Results
 
 The analysis of the election audit shows that:
 - There were 369,711 votes cast in the congressional election.
-
 - Breakdown of the number of votes and the percentage of total votes for each county in the precinct:
      - Jefferson county had 10.5% of the vote and 38,855 number of votes
      - Denver county had 82.8% of the vote and 306,055 number of votes
      - Arapahoe county had 6.7% of the vote and 24,801 number of votes
-
 - Denver county had the largest number of votes.
-
 - Breakdown of the number of votes and the percentage of the total votes each candidate:
      - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes
      -  Diana DeGette received 73.8% of the vote and 272,892 number of votes
      -  Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes
-
 -  The winner of the election was:
      -  Diana DeGette, who received 73.8% of the vote and 272,892 number of votes
 
-
 **Election Results Screenshots**
-
 
 **Output to terminal**
 
 ![Election_results.png](https://github.com/smj452/Election_Analysis/blob/master/Resources/election_results.png)
 
-
 **Output to text file**
 
 ![Election_Analysis_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/Election_analysis_txt.png)
 
-
-
-
 **Python script**
-
-
 ```python
+# -*- coding: UTF-8 -*-
+"""PyPoll Homework Challenge Solution."""
 
 # Add our dependencies.
 import csv
@@ -222,15 +225,12 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
-
 ```
-
-## Election-Audit Summary
+## Challenge Summary
+### Election-Audit Summary
 
 This congressional election audit was completed successfully with Python. The audit would usually be done in Excel, but we were able to automate the process using Python. By automating the process, we were able to generate the election audit report quicker and with less errors. With a few modifications, the code written to complete this audit can be used for any election, including senatorial districts and local elections.
-
 The script can be modified and used to analyze any elections. Following are two examples for modifying the script:
-
 1. Change the file_to_load(the file that contains election data).
 Two ways to change the file are:
  - Change the current file name with the new file name that requires analysis.
