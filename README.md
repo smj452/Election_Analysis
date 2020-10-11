@@ -69,10 +69,8 @@ The analysis of the election audit shows that:
 ![Election_Analysis_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/Election_analysis_txt.png)
 
 **Python script**
-```python
-# -*- coding: UTF-8 -*-
-"""PyPoll Homework Challenge Solution."""
 
+```python
 # Add our dependencies.
 import csv
 import os
@@ -225,7 +223,9 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
-```
+  ```
+    
+
 ## Challenge Summary
 ### Election-Audit Summary
 
