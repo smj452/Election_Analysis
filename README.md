@@ -25,17 +25,20 @@ The analysis of the election show that:
 
 - There were "369,711" votes cast in the election.
 - The candidates were:
-  - Charles Casper Stockham
-  - Diana DeGette
-  - Raymon Anthony Doane
+ - Charles Casper Stockham
+ - Diana DeGette
+ - Raymon Anthony Doane
+
 - The candidate results were:
-  - Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
-  - Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
-  - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
+ - Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
+ - Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
+ - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
+
 - The winner of the election was:
-  - Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
+ - Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
 
 ## Challenge Overview
+
 ### Election-Audit Overview
 The election commission has requested some additional data to complete the election audit:
 1.	The voter turnout for each county
@@ -64,9 +67,11 @@ The analysis of the election audit shows that:
 
 ![Election_results.png](https://github.com/smj452/Election_Analysis/blob/master/Resources/election_results.png)
 
+
 **Output to text file**
 
-![Election_Analysis_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/Election_analysis_txt.png)
+![Election_results_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/election_results_txt.png)
+
 
 **Python script**
 ```
