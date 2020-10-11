@@ -1,8 +1,7 @@
 # Election Analysis
-
 ## Overview of Project
-
 Tom is a Colorado Board of Elections employee who is assigned by his manger to perform an election audit of the tabulated results for U.S. Congressional precinct in Colorado. Three primary voting methods are taken into account: Mail-in ballots, punch cards, and direct recording electronic or DRE counting machines. Altogether the votes cast by these three methods will determine the final election results. The following are tasks given to complete the election audit of the recent local congressional election.
+
 1.	Total number of votes cast
 2.	A complete list of candidates who received votes
 3.	Total number of votes each candidate received
@@ -37,6 +36,7 @@ o	Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
 o	Candidate Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
 
 ## Challenge Overview
+
 ### Election-Audit Overview
 The election commission has requested some additional data to complete the election audit:
 1.	The voter turnout for each county
@@ -44,6 +44,7 @@ The election commission has requested some additional data to complete the elect
 3.	The county with the highest turnout
 
 ### Election Audit Results
+
 The analysis of the election audit shows that:
 - There were 369,711 votes cast in the congressional election.
 - Breakdown of the number of votes and the percentage of total votes for each county in the precinct:
@@ -69,7 +70,6 @@ The analysis of the election audit shows that:
 ![Election_Analysis_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/Election_analysis_txt.png)
 
 **Python script**
-
 ```
 # Add our dependencies.
 import csv
@@ -224,7 +224,7 @@ with open(file_to_save, "w") as txt_file:
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
 ```
-
+    
 ## Challenge Summary
 ### Election-Audit Summary
 
