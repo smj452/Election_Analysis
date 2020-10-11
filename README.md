@@ -1,6 +1,4 @@
 # Election Audit
-
-
 ## Overview of Project
 
 Tom is a Colorado Board of Elections employee who is assigned by his manger to perform an election audit of the tabulated results for U.S. Congressional precinct in Colorado. Three primary voting methods are taken into account: Mail-in ballots, punch cards, and direct recording electronic or DRE counting machines. Altogether the votes cast by these three methods will determine the final election results. As a part of the audit to find the election winner, the following metrics were calculated: 
@@ -19,7 +17,6 @@ Tom is a Colorado Board of Elections employee who is assigned by his manger to p
 
 7.The county with the highest turnout
 
-
 ### Purpose
 
 The purpose of the project was to assist Tom in the audit of tabulated results for a US congressional precinct in Colorado. Using the data source of a CSV file containing the tabulated totals for the elections from various voting methods, the objective was to automate the process by writing a python script to successfully audit the election. Also, if this audit is done successfully with Python, the code will be used for senatorial districts and local elections.
@@ -30,6 +27,7 @@ The purpose of the project was to assist Tom in the audit of tabulated results f
 2. ```Visual Studio Code 1.49.3``` 
 
 #### Data Source: ```election_results.csv```
+
 
 ## Election Audit Results
 
@@ -60,18 +58,18 @@ The analysis of the election audit shows that:
 ![Election_results.png](https://github.com/smj452/Election_Analysis/blob/master/Resources/election_results.png)
 
 
-
-
-
 **Output to text file**
 
 ![Election_Analysis_txt](https://github.com/smj452/Election_Analysis/blob/master/Resources/Election_analysis_txt.png)
 
 
 
+
 **Python script**
 
+
 ```python
+
 # Add our dependencies.
 import csv
 import os
@@ -224,7 +222,8 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
-    ```
+
+```
 
 ## Election-Audit Summary
 
@@ -237,6 +236,6 @@ Two ways to change the file are:
  - Change the current file name with the new file name that requires analysis.
  - Add python input function that will allow the user to enter the file name and then run an analysis on the input file.
 
-2.Update the script and add another 'for' loop. Here are two scenarios that will require the script update to add another "for' loop:
+2. Update the script and add another 'for' loop. Here are two scenarios that will require the script update to add another "for' loop:
  - Perform analysis for senatorial districts and local elections
  - Perform analysis for presidential elections
