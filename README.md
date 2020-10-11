@@ -42,7 +42,7 @@ The election commission has requested some additional data to complete the elect
 2.	The percentage of votes from each county out of the total count
 3.	The county with the highest turnout
 
-## Election Audit Results
+### Election Audit Results
 
 The analysis of the election audit shows that:
 - There were 369,711 votes cast in the congressional election.
