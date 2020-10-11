@@ -1,7 +1,6 @@
 # Election Analysis
 ## Overview of Project
 Tom is a Colorado Board of Elections employee who is assigned by his manger to perform an election audit of the tabulated results for U.S. Congressional precinct in Colorado. Three primary voting methods are taken into account: Mail-in ballots, punch cards, and direct recording electronic or DRE counting machines. Altogether the votes cast by these three methods will determine the final election results. The following are tasks given to complete the election audit of the recent local congressional election.
-
 1.	Total number of votes cast
 2.	A complete list of candidates who received votes
 3.	Total number of votes each candidate received
@@ -23,17 +22,20 @@ The purpose of the project was to assist Tom in the audit of tabulated results f
 ## Summary
 
 The analysis of the election show that:
-•	There were "369,711" votes cast in the election.
-•	The candidates were:
-o	Charles Casper Stockham
-o	Diana DeGette
-o	Raymon Anthony Doane
-•	The candidate results were:
-o	Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
-o	Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
-o	Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
-•	The winner of the election was:
-o	Candidate Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
+
+- There were "369,711" votes cast in the election.
+- The candidates were:
+ - Charles Casper Stockham
+ - Diana DeGette
+ - Raymon Anthony Doane
+
+- The candidate results were:
+ - Charles Casper Stockham received "23.0%" of the vote and "85,213" number of votes.
+ - Diana DeGette received "73.8%" of the vote and "272,892" number of votes.
+ - Raymon Anthony Doane received "3.1%" of the vote and "11,606" number of votes.
+
+- The winner of the election was:
+ - Diana DeGette, who received "73.8%" of the vote and "272,892" number of vote
 
 ## Challenge Overview
 
