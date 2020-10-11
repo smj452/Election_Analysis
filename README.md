@@ -72,7 +72,6 @@ The analysis of the election audit shows that:
 **Python script**
 
 ```python
-
 # Add our dependencies.
 import csv
 import os
@@ -80,7 +79,7 @@ import os
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources/election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("election_analysis.txt")
+file_to_save = os.path.join("Analysis/election_analysis.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
@@ -225,9 +224,7 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
-
-```
-
+    ```
 
 ## Election-Audit Summary
 
@@ -243,13 +240,3 @@ Two ways to change the file are:
 2.Update the script and add another 'for' loop. Here are two scenarios that will require the script update to add another "for' loop:
  - Perform analysis for senatorial districts and local elections
  - Perform analysis for presidential elections
-
-
-
-
-
-
-
-
-
-
